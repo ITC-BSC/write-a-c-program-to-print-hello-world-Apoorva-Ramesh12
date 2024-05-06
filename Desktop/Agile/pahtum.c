@@ -58,7 +58,7 @@ void scoreBoard(char board[SIZE][SIZE]) {
     for (int i = 0; i < SIZE; i++) {
         int countXCurrent = 0, countOCurrent = 0;
         for (int j = 0; j < SIZE; j++) {
-            if (board[i][j] ){                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           = 'X') {
+            if (board[i][j] == 'X') {
                 countXCurrent++;
                 countOCurrent = 0;
             } else if (board[i][j] == 'O') {
