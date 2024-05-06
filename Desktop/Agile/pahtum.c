@@ -68,7 +68,7 @@ void scoreBoard(char board[SIZE][SIZE]) {
                 countXCurrent = 0;
                 countOCurrent = 0;
             }
-            print("X=%d ,O=%d",countXCurrent,countOCurrent);
+            printf("X=%d ,O=%d",countXCurrent,countOCurrent);
             if (countXCurrent >= 3) {
                 scoreX += (countXCurrent == 3) ? 3 : (countXCurrent == 4) ? 10 : (countXCurrent == 5) ? 25 : (countXCurrent == 6) ? 56 : 119;
                 countX[countXCurrent - 3]++; // Increment count for sequence length
