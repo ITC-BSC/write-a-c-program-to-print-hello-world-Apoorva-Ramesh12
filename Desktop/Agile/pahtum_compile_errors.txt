@@ -2,3 +2,12 @@ Compilation started at 5/6/2024, 3:18:03 PM
 Compilation finished at 5/6/2024, 3:18:04 PM
 Compilation started at 5/6/2024, 3:33:28 PM
 Compilation finished at 5/6/2024, 3:33:28 PM
+Compilation started at 5/6/2024, 3:45:56 PM
+c:\Users\AP\Desktop\Agile\pahtum.c: In function 'scoreBoard':
+c:\Users\AP\Desktop\Agile\pahtum.c:71:13: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+             print("X=%d ,O=%d",countXCurrent,countOCurrent);
+             ^~~~~
+C:\Users\AP\AppData\Local\Temp\cc4yKaWL.o: In function `scoreBoard':
+c:/Users/AP/Desktop/Agile/pahtum.c:71: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 5/6/2024, 3:45:56 PM
