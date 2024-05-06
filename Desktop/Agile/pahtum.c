@@ -54,7 +54,7 @@ void scoreBoard(char board[SIZE][SIZE]) {
     int scoreX = 0, scoreO = 0;
     int countX[5] = {0}, countO[5] = {0}; // To store counts of sequences of lengths 3, 4, 5, 6, and 7
    
-    // Check horizontally
+    // Check vertically
     for (int i = 0; i < SIZE; i++) {
         int countXCurrent = 0, countOCurrent = 0;
         for (int j = 0; j < SIZE; j++) {
@@ -79,7 +79,7 @@ void scoreBoard(char board[SIZE][SIZE]) {
         }
     }
 
-    // Check vertically
+    // Check horizontally
     for (int j = 0; j < SIZE; j++) {
         int countXCurrent = 0, countOCurrent = 0;
         for (int i = 0; i < SIZE; i++) {
