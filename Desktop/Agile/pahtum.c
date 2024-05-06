@@ -66,21 +66,7 @@ void scoreBoard(char board[SIZE][SIZE]) {
             
             
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         = 'X') {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    = 'X') {
                 countXCurrent++;
                 countOCurrent = 0;
             } else if (board[i][j] == 'O') {
